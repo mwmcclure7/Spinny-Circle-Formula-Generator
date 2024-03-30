@@ -8,5 +8,5 @@ def make_formula(num_instances=3):
         y_part += f"-(r\u221Am^{i}+r\u221Am^({i}+1))sin((s^{i})t)"
 
     return f"({x_part})^2+({y_part})^2=(r^2)m^{num_instances}"
-0
+
 print(make_formula(int(input("How many circles? "))))
